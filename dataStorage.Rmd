@@ -1,0 +1,19 @@
+---
+title: "Data Storage, Measurements and Storage"
+author: "SIMON CHIDI"
+date: "1/14/2020"
+output: pdf_document
+---
+
+```{r}
+
+## list of human and physical interractions
+interractions <- c("Gender", "Intelligent Quotient", "Socio economic class", "Age", "Height", "Religious Preference", "Type of living accomodation", "Political party", "Race", "Weight" )
+## Attributes
+Attributes <- c("male", "High", "Upper", "22", "1.8m", "Christian", "Duplex", "PDP", "African", "76kg")
+## Create a data frame
+HumanAttributes <- data.frame(interractions, Attributes)
+
+## Export table as a csv file
+write.table(HumanAttributes, file = "Data.csv", row.names=FALSE, sep = ",")
+```

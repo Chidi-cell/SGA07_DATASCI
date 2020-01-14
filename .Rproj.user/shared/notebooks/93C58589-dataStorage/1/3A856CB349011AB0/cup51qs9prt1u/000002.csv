@@ -1,0 +1,8 @@
+"0","## Export table as a csv file
+write.csv(HumanAttributes, file = ""Data.csv"", row.names=FALSE, sep = "","")
+"
+"2","attempt to set 'sep' ignored"
+"2","cannot open file 'Data.csv': Permission denied"
+"2","Error in file(file, ifelse(append, ""a"", ""w"")) : 
+  cannot open the connection
+"
