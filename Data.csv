@@ -1,11 +1,2 @@
-"interractions","Attributes"
-"Gender","male"
-"Intelligent Quotient","High"
-"Socio economic class","Upper"
-"Age","22"
-"Height","1.8m"
-"Religious Preference","Christian"
-"Type of living accomodation","Duplex"
-"Political party","PDP"
-"Race","African"
-"Weight","76kg"
+,Genotype,Race,Political party,Socio-economic status,Height,Weight,Credit score,Intelligent Quotient,Income level,Hair color
+0,AA,Negroid,APC,Upper,1.8m,80kg,Good,High,High,Black

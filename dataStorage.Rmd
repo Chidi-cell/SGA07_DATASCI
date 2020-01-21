@@ -15,5 +15,5 @@ Attributes <- c("male", "High", "Upper", "22", "1.8m", "Christian", "Duplex", "P
 HumanAttributes <- data.frame(interractions, Attributes)
 
 ## Export table as a csv file
-write.table(HumanAttributes, file = "Data.csv", row.names=FALSE, sep = ",")
+write.csv(HumanAttributes, file = "Data.csv", row.names=FALSE, sep = ",")
 ```
